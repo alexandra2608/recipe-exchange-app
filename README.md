@@ -37,13 +37,9 @@ Backend
 
 ## Структура проекта
 
-recipe-exchange-app
-│
-├ backend — серверная часть на Django
-│
-├ frontend — клиентское SPA-приложение на Vue.js
-│
-└ screenshots — скриншоты интерфейса
+recipe-exchange-app/backend — серверная часть на Django
+recipe-exchange-app/frontend — клиентское SPA-приложение на Vue.js
+recipe-exchange-app/screenshots — скриншоты интерфейса
 
 ## Установка и запуск
 
@@ -51,31 +47,31 @@ recipe-exchange-app
 
 1. Перейти в папку backend
 
-cd backend
+`cd backend`
 
 2. Создать виртуальное окружение
 
-python -m venv venv
+`python -m venv venv`
 
 3. Активировать окружение
 
 Windows
-venv\Scripts\activate
+`venv\Scripts\activate`
 
 Mac / Linux
-source venv/bin/activate
+`source venv/bin/activate`
 
 4. Установить зависимости
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 5. Применить миграции
 
-python manage.py migrate
+`python manage.py migrate`
 
 6. Запустить сервер
 
-python manage.py runserver
+`python manage.py runserver`
 
 Backend будет доступен по адресу
 http://127.0.0.1:8000/recipes
@@ -84,15 +80,15 @@ http://127.0.0.1:8000/recipes
 
 1. Перейти в папку frontend
 
-cd frontend
+`cd frontend`
 
 2. Установить зависимости
 
-npm install
+`npm install`
 
 3. Запустить приложение
 
-npm run dev
+`npm run dev`
 
 Frontend будет доступен по адресу
 http://localhost:5173
@@ -100,3 +96,8 @@ http://localhost:5173
 ## Скриншоты
 
 Здесь будут размещены скриншоты интерфейса приложения.
+
+## Подробная документация 
+
+Документация доступна по [ссылке](https://alexandra2608.github.io/ITMO_ICT_WebDevelopment_2024-2025/).
+
