@@ -37,9 +37,9 @@ Backend
 
 ## Структура проекта
 
-recipe-exchange-app/backend — серверная часть на Django
-recipe-exchange-app/frontend — клиентское SPA-приложение на Vue.js
-recipe-exchange-app/screenshots — скриншоты интерфейса
+* recipe-exchange-app/backend — серверная часть на Django
+* recipe-exchange-app/frontend — клиентское SPA-приложение на Vue.js
+* recipe-exchange-app/screenshots — скриншоты интерфейса
 
 ## Установка и запуск
 
@@ -95,9 +95,9 @@ http://localhost:5173
 
 ## Скриншоты
 
-Здесь будут размещены скриншоты интерфейса приложения.
+Cкриншоты интерфейса приложения размещены в папке screenshots.
 
-## Подробная документация 
+## Документация 
 
-Документация доступна по [ссылке](https://alexandra2608.github.io/ITMO_ICT_WebDevelopment_2024-2025/).
+Подробная документация по выполнению учебного проекта доступна по [ссылке](https://alexandra2608.github.io/ITMO_ICT_WebDevelopment_2024-2025/).
 
